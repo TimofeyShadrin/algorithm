@@ -16,6 +16,7 @@ public class App
 
         SERVICE.printList(list);
         list.revert();
+        System.out.println();
         SERVICE.printList(list);
     }
 }
